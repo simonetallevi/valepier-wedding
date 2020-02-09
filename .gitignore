@@ -1,0 +1,64 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/static/dist
+/dist-server
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+src/app/config/secret.ts
+/valepier-wedding.iml
+static/angular_material_schematics-5AlBgf/
+node_modules/
+static/node_modules/
+build
+/.gradle/
+/.gradle/4.4.1/fileHashes/fileHashes.bin
+/src/main/webapp/3rdpartylicenses.txt
+/src/main/webapp/index.jsp
+/src/main/webapp/styles.*.css
+/src/main/webapp/runtime.*.js
+/src/main/webapp/polyfills.*.js
+/src/main/webapp/main.*.js
+/src/test/resources/setup.properties
+/test-images/
+
+static/src/assets/claudio-poli.jpg
+static/src/assets/about-background.jpg
