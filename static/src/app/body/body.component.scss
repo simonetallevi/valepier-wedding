@@ -1,0 +1,28 @@
+.v-body{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.v-body .v-left{
+  height: 400px;
+  background-color: red;
+}
+
+.v-body .v-right{
+  height: 400px;
+  background-color: blue;
+}
+
+@media screen and (max-width: 1200px) {
+  .v-body{
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .v-body{
+    width: 100%;
+    margin: 0;
+  }
+}

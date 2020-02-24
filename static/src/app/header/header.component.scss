@@ -11,7 +11,8 @@
   width:  100vw; /* For 100% screen width */
 }
 
-.v-img-holder{
+.v-background{
+  position: relative;
   height: 100%;
   width: 80%;
   margin: 0 auto;
@@ -20,17 +21,63 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 10%;
-  box-shadow: inset 10px 0px 60px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: inset 0px 0px 60px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 0px 60px 0px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 0px 60px 0px rgba(0,0,0,0.75);
+}
+
+.v-title{
+  color: black;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  //background-color: rgba(0,0,0,0.4);
+}
+
+.v-title h1{
+  margin: 5px;
+  padding: 5px;
+  font-size: 80px;
+  text-align: center;
+}
+
+.v-bottom-title{
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.v-bottom-down{
+  color: whitesmoke;
+  position: absolute;
+  bottom: 0;
+  left: 48%;
+  font-size: 50px;
+}
+
+.v-bottom-down button{
+  background-color: transparent;
+  border: 0;
+  color: whitesmoke;
+  border-radius: 50%;
+  width: 80px;
+}
+
+.heart{
+  color: #bb171d;
 }
 
 @media screen and (max-width: 1200px) {
-  .v-img-holder{
+  .v-background{
     width: 100%;
   }
 }
 
 @media screen and (max-width: 800px) {
-  .v-img-holder{
+  .v-title h1{
+    font-size: 40px;
+  }
+  .v-background{
     width: 100%;
     background-size: cover;
     background-position: center;

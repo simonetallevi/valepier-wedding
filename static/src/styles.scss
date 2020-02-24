@@ -1,6 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
 
+@font-face {
+  font-family: "Monika";
+  src: url('assets/Monika.eot');
+  src: url('assets/Monika.eot?#iefix') format('eot'),
+  url('assets/Monika.woff') format('woff'),
+  url('assets/Monika.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "EuphoriaScript";
+  src: url(assets/EuphoriaScript-Regular.otf) format("truetype");
+}
+
 body{
+  font-family: 'Monika', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 0;
-  margin: 0;;
+  margin: 0;
+  background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'EuphoriaScript', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  margin: 0 0 35px;
+  letter-spacing: 1px;
 }
