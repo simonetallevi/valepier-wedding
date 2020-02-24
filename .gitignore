@@ -64,3 +64,4 @@ static/src/assets/claudio-poli.jpg
 static/src/assets/about-background.jpg
 /src/main/webapp/
 !/src/main/webapp/WEB-INF
+/static/src/assets/img/
