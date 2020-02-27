@@ -13,6 +13,10 @@
   src: url(assets/EuphoriaScript-Regular.otf) format("truetype");
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: 'Monika', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 0;
