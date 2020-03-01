@@ -44,7 +44,8 @@
             "aot": false,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/icons"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",

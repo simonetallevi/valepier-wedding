@@ -22,7 +22,7 @@ cd $basedir
 echo "BUILT"
 
 rm -r static/dist/assets
-cp static/dist/* ${webappdir}
+cp -R static/dist/* ${webappdir}
 
 echo "COPIED"
 
