@@ -18,7 +18,7 @@
 
 .title-box {
   position: absolute;
-  top: 20%;
+  top: 10%;
   width: 100%;
 }
 
@@ -47,9 +47,10 @@
   text-align: center;
 }
 
-.description-box p{
-  font-size: 40px;
-  text-align: center;
+.title-box .small-text {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
 }
 
 .v-body .v-right.img-box-invite {
@@ -58,7 +59,7 @@
   background-image: url("../../assets/img/invite.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0% 60%;
+  background-position: 20% 60%;
   -webkit-box-shadow: inset 0px 0px 60px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: inset 0px 0px 60px 0px rgba(0, 0, 0, 0.75);
   box-shadow: inset 0px 0px 60px 0px rgba(0, 0, 0, 0.75);
@@ -70,10 +71,17 @@
   background-image: url("../../assets/img/future_bw.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0% 60%;
+  background-position: 50% 60%;
   -webkit-box-shadow: inset 0px 0px 60px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: inset 0px 0px 60px 0px rgba(0, 0, 0, 0.75);
   box-shadow: inset 0px 0px 60px 0px rgba(0, 0, 0, 0.75);
+}
+
+.map-frame-l {
+}
+
+.map-frame-s {
+  display: none;
 }
 
 @media screen and (max-width: 1200px) {
@@ -87,5 +95,51 @@
   .v-body {
     width: 100%;
     margin: 0;
+  }
+  .map-frame-l {
+    display: none;
+  }
+
+  .map-frame-s {
+    display: block;
+  }
+
+  .title-box p {
+    font-size: 40px;
+  }
+
+  .iban {
+    font-size: 25px;
+  }
+
+  .title-box .small-text {
+    font-size: 25px;
+  }
+
+  .title-box-3 {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title-box p {
+    font-size: 30px;
+  }
+
+  .iban {
+    font-size: 20px;
+  }
+
+  .title-box .small-text {
+    font-size: 20px;
+  }
+
+  .title-box-3 {
+    height: 200px;
+  }
+
+  .v-body .v-right.img-box-future,
+  .v-body .v-right.img-box-invite {
+    height: 305px;
   }
 }
