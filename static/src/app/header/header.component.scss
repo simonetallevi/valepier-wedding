@@ -16,10 +16,10 @@
   height: 100%;
   width: 80%;
   margin: 0 auto;
-  background-image: url("../../assets/img/header.jpg");
+  background-image: url("../../assets/img/header_bw.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 10%;
+  background-position: 90% 10%;
   -webkit-box-shadow: inset 0px 0px 60px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 0px 0px 60px 0px rgba(0,0,0,0.75);
   box-shadow: inset 0px 0px 60px 0px rgba(0,0,0,0.75);
@@ -78,6 +78,6 @@
   .v-background{
     width: 100%;
     background-size: cover;
-    background-position: center;
+    background-position: 90%;
   }
 }
